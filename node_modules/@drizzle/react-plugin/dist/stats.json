@@ -1,0 +1,4670 @@
+{
+  "errors": [
+  ],
+  "warnings": [
+  ],
+  "version": "3.12.0",
+  "hash": "5dfd2ad9ab45c7f421bd",
+  "time": 1021,
+  "publicPath": "",
+  "assetsByChunkName": {
+    "main": [
+      "drizzle-react-plugin.js",
+      "drizzle-react-plugin.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "drizzle-react-plugin.js",
+      "size": 31126,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "drizzle-react-plugin.js.map",
+      "size": 129232,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "drizzle-react-plugin.js",
+        "drizzle-react-plugin.js.map"
+      ]
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 76592,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "drizzle-react-plugin.js",
+        "drizzle-react-plugin.js.map"
+      ],
+      "hash": "220fe696fd59cc6bf770",
+      "parents": [
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "external \"react\"",
+          "name": "external \"react\"",
+          "index": 4,
+          "index2": 2,
+          "size": 42,
+          "cacheable": false,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/drizzleConnect.js",
+          "issuerId": 15,
+          "issuerName": "./src/drizzleConnect.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+              "module": "./src/hooks/index.js",
+              "moduleName": "./src/hooks/index.js",
+              "type": "harmony import",
+              "userRequest": "react",
+              "loc": "1:0-95"
+            },
+            {
+              "moduleId": 10,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "type": "harmony import",
+              "userRequest": "react",
+              "loc": "7:0-49"
+            },
+            {
+              "moduleId": 15,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/drizzleConnect.js",
+              "module": "./src/drizzleConnect.js",
+              "moduleName": "./src/drizzleConnect.js",
+              "type": "harmony import",
+              "userRequest": "react",
+              "loc": "3:0-26"
+            },
+            {
+              "moduleId": 18,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+              "type": "harmony import",
+              "userRequest": "react",
+              "loc": "2:0-44"
+            },
+            {
+              "moduleId": 34,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleProvider.js",
+              "module": "./src/DrizzleProvider.js",
+              "moduleName": "./src/DrizzleProvider.js",
+              "type": "harmony import",
+              "userRequest": "react",
+              "loc": "2:0-44"
+            },
+            {
+              "moduleId": 36,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleContext.js",
+              "module": "./src/DrizzleContext.js",
+              "moduleName": "./src/DrizzleContext.js",
+              "type": "harmony import",
+              "userRequest": "react",
+              "loc": "2:0-26"
+            },
+            {
+              "moduleId": 38,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/create-use-cache-events.js",
+              "module": "./src/hooks/create-use-cache-events.js",
+              "moduleName": "./src/hooks/create-use-cache-events.js",
+              "type": "harmony import",
+              "userRequest": "react",
+              "loc": "7:0-53"
+            },
+            {
+              "moduleId": 39,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/create-use-cache-send.js",
+              "module": "./src/hooks/create-use-cache-send.js",
+              "moduleName": "./src/hooks/create-use-cache-send.js",
+              "type": "harmony import",
+              "userRequest": "react",
+              "loc": "2:0-33"
+            }
+          ],
+          "usedExports": [
+            "Children",
+            "Component",
+            "createContext",
+            "createElement",
+            "default",
+            "useContext",
+            "useEffect",
+            "useMemo",
+            "useRef",
+            "useState"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 2
+        },
+        {
+          "id": 1,
+          "identifier": "/home/amal/work/drizzle/node_modules/process/browser.js",
+          "name": "/home/amal/work/drizzle/node_modules/process/browser.js",
+          "index": 7,
+          "index2": 3,
+          "size": 5418,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "issuerId": 18,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 10,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "type": "cjs require",
+              "userRequest": "process",
+              "loc": "1:0-40"
+            },
+            {
+              "moduleId": 11,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+              "type": "cjs require",
+              "userRequest": "process",
+              "loc": "1:0-34"
+            },
+            {
+              "moduleId": 12,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/wrapMapToProps.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/wrapMapToProps.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/wrapMapToProps.js",
+              "type": "cjs require",
+              "userRequest": "process",
+              "loc": "1:0-40"
+            },
+            {
+              "moduleId": 18,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+              "type": "cjs require",
+              "userRequest": "process",
+              "loc": "1:0-40"
+            },
+            {
+              "moduleId": 22,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-is/cjs/react-is.development.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-is/cjs/react-is.development.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-is/cjs/react-is.development.js",
+              "type": "cjs require",
+              "userRequest": "process",
+              "loc": "1:0-37"
+            },
+            {
+              "moduleId": 23,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/invariant/browser.js",
+              "module": "/home/amal/work/drizzle/node_modules/invariant/browser.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/invariant/browser.js",
+              "type": "cjs require",
+              "userRequest": "process",
+              "loc": "1:0-34"
+            },
+            {
+              "moduleId": 31,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+              "type": "cjs require",
+              "userRequest": "process",
+              "loc": "1:0-40"
+            },
+            {
+              "moduleId": 32,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+              "type": "cjs require",
+              "userRequest": "process",
+              "loc": "1:0-40"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 4
+        },
+        {
+          "id": 2,
+          "identifier": "external \"prop-types\"",
+          "name": "external \"prop-types\"",
+          "index": 3,
+          "index2": 1,
+          "size": 42,
+          "cacheable": false,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/drizzleConnect.js",
+          "issuerId": 15,
+          "issuerName": "./src/drizzleConnect.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+              "module": "./src/hooks/index.js",
+              "moduleName": "./src/hooks/index.js",
+              "type": "harmony import",
+              "userRequest": "prop-types",
+              "loc": "2:0-35"
+            },
+            {
+              "moduleId": 9,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/PropTypes.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/PropTypes.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/PropTypes.js",
+              "type": "harmony import",
+              "userRequest": "prop-types",
+              "loc": "1:0-35"
+            },
+            {
+              "moduleId": 15,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/drizzleConnect.js",
+              "module": "./src/drizzleConnect.js",
+              "moduleName": "./src/drizzleConnect.js",
+              "type": "harmony import",
+              "userRequest": "prop-types",
+              "loc": "2:0-35"
+            },
+            {
+              "moduleId": 18,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+              "type": "harmony import",
+              "userRequest": "prop-types",
+              "loc": "3:0-35"
+            },
+            {
+              "moduleId": 34,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleProvider.js",
+              "module": "./src/DrizzleProvider.js",
+              "moduleName": "./src/DrizzleProvider.js",
+              "type": "harmony import",
+              "userRequest": "prop-types",
+              "loc": "3:0-35"
+            },
+            {
+              "moduleId": 45,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/components/initializer.js",
+              "module": "./src/hooks/components/initializer.js",
+              "moduleName": "./src/hooks/components/initializer.js",
+              "type": "harmony import",
+              "userRequest": "prop-types",
+              "loc": "1:0-35"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 2
+        },
+        {
+          "id": 3,
+          "identifier": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/defineProperty.js",
+          "name": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/defineProperty.js",
+          "index": 33,
+          "index2": 31,
+          "size": 289,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleProvider.js",
+          "issuerId": 34,
+          "issuerName": "./src/DrizzleProvider.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 34,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleProvider.js",
+              "module": "./src/DrizzleProvider.js",
+              "moduleName": "./src/DrizzleProvider.js",
+              "type": "harmony import",
+              "userRequest": "@babel/runtime/helpers/defineProperty",
+              "loc": "1:0-68"
+            },
+            {
+              "moduleId": 36,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleContext.js",
+              "module": "./src/DrizzleContext.js",
+              "moduleName": "./src/DrizzleContext.js",
+              "type": "harmony import",
+              "userRequest": "@babel/runtime/helpers/defineProperty",
+              "loc": "1:0-68"
+            },
+            {
+              "moduleId": 37,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/create-use-cache-call.js",
+              "module": "./src/hooks/create-use-cache-call.js",
+              "moduleName": "./src/hooks/create-use-cache-call.js",
+              "type": "harmony import",
+              "userRequest": "@babel/runtime/helpers/defineProperty",
+              "loc": "1:0-68"
+            },
+            {
+              "moduleId": 38,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/create-use-cache-events.js",
+              "module": "./src/hooks/create-use-cache-events.js",
+              "moduleName": "./src/hooks/create-use-cache-events.js",
+              "type": "harmony import",
+              "userRequest": "@babel/runtime/helpers/defineProperty",
+              "loc": "1:0-68"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 2
+        },
+        {
+          "id": 4,
+          "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+          "name": "./src/hooks/index.js",
+          "index": 36,
+          "index2": 44,
+          "size": 3487,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+          "issuerId": 14,
+          "issuerName": "./src/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony import",
+              "userRequest": "./hooks",
+              "loc": "4:0-45"
+            },
+            {
+              "moduleId": 37,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/create-use-cache-call.js",
+              "module": "./src/hooks/create-use-cache-call.js",
+              "moduleName": "./src/hooks/create-use-cache-call.js",
+              "type": "harmony import",
+              "userRequest": ".",
+              "loc": "7:0-36"
+            },
+            {
+              "moduleId": 39,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/create-use-cache-send.js",
+              "module": "./src/hooks/create-use-cache-send.js",
+              "moduleName": "./src/hooks/create-use-cache-send.js",
+              "type": "harmony import",
+              "userRequest": ".",
+              "loc": "1:0-36"
+            },
+            {
+              "moduleId": 45,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/components/initializer.js",
+              "module": "./src/hooks/components/initializer.js",
+              "moduleName": "./src/hooks/components/initializer.js",
+              "type": "harmony import",
+              "userRequest": "..",
+              "loc": "2:0-37"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "useDrizzle",
+            "useDrizzleState",
+            "DrizzleProvider",
+            "Initializer"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 1
+        },
+        {
+          "id": 5,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/warning.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/warning.js",
+          "index": 10,
+          "index2": 6,
+          "size": 640,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "issuerId": 18,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 13,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+              "type": "harmony import",
+              "userRequest": "./warning",
+              "loc": "2:0-32"
+            },
+            {
+              "moduleId": 18,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+              "type": "harmony import",
+              "userRequest": "../utils/warning",
+              "loc": "5:0-39"
+            },
+            {
+              "moduleId": 33,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/verifySubselectors.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/verifySubselectors.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/verifySubselectors.js",
+              "type": "harmony import",
+              "userRequest": "../utils/warning",
+              "loc": "1:0-39"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 4
+        },
+        {
+          "id": 6,
+          "identifier": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/esm/extends.js",
+          "name": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/esm/extends.js",
+          "index": 13,
+          "index2": 9,
+          "size": 397,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "issuerId": 25,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 10,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "type": "harmony import",
+              "userRequest": "@babel/runtime/helpers/esm/extends",
+              "loc": "3:0-58"
+            },
+            {
+              "moduleId": 25,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "type": "harmony import",
+              "userRequest": "@babel/runtime/helpers/esm/extends",
+              "loc": "1:0-58"
+            },
+            {
+              "moduleId": 31,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+              "type": "harmony import",
+              "userRequest": "@babel/runtime/helpers/esm/extends",
+              "loc": "1:0-58"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 4
+        },
+        {
+          "id": 7,
+          "identifier": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+          "name": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+          "index": 14,
+          "index2": 10,
+          "size": 350,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "issuerId": 25,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 10,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "type": "harmony import",
+              "userRequest": "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose",
+              "loc": "4:0-100"
+            },
+            {
+              "moduleId": 25,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "type": "harmony import",
+              "userRequest": "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose",
+              "loc": "2:0-100"
+            },
+            {
+              "moduleId": 32,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+              "type": "harmony import",
+              "userRequest": "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose",
+              "loc": "1:0-100"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 4
+        },
+        {
+          "id": 8,
+          "identifier": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+          "name": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+          "index": 8,
+          "index2": 4,
+          "size": 204,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "issuerId": 18,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 10,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "type": "harmony import",
+              "userRequest": "@babel/runtime/helpers/esm/inheritsLoose",
+              "loc": "1:0-70"
+            },
+            {
+              "moduleId": 18,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+              "type": "harmony import",
+              "userRequest": "@babel/runtime/helpers/esm/inheritsLoose",
+              "loc": "1:0-70"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 4
+        },
+        {
+          "id": 9,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/PropTypes.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/PropTypes.js",
+          "index": 9,
+          "index2": 5,
+          "size": 428,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "issuerId": 18,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 10,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "type": "harmony import",
+              "userRequest": "../utils/PropTypes",
+              "loc": "10:0-67"
+            },
+            {
+              "moduleId": 18,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+              "type": "harmony import",
+              "userRequest": "../utils/PropTypes",
+              "loc": "4:0-67"
+            }
+          ],
+          "usedExports": [
+            "storeShape",
+            "subscriptionShape"
+          ],
+          "providedExports": [
+            "subscriptionShape",
+            "storeShape"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 4
+        },
+        {
+          "id": 10,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "index": 11,
+          "index2": 17,
+          "size": 13286,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+          "issuerId": 17,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 17,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+              "type": "harmony import",
+              "userRequest": "./components/connectAdvanced",
+              "loc": "2:0-59"
+            },
+            {
+              "moduleId": 25,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "type": "harmony import",
+              "userRequest": "../components/connectAdvanced",
+              "loc": "3:0-60"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 3
+        },
+        {
+          "id": 11,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+          "index": 16,
+          "index2": 13,
+          "size": 196,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "issuerId": 10,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 10,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "type": "harmony import",
+              "userRequest": "react-is",
+              "loc": "8:0-46"
+            },
+            {
+              "moduleId": 20,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+              "module": "/home/amal/work/drizzle/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+              "type": "cjs require",
+              "userRequest": "react-is",
+              "loc": "7:14-33"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 4
+        },
+        {
+          "id": 12,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/wrapMapToProps.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/wrapMapToProps.js",
+          "index": 25,
+          "index2": 22,
+          "size": 2793,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapStateToProps.js",
+          "issuerId": 30,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapStateToProps.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 27,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+              "type": "harmony import",
+              "userRequest": "./wrapMapToProps",
+              "loc": "2:0-78"
+            },
+            {
+              "moduleId": 30,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapStateToProps.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapStateToProps.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapStateToProps.js",
+              "type": "harmony import",
+              "userRequest": "./wrapMapToProps",
+              "loc": "1:0-78"
+            }
+          ],
+          "usedExports": [
+            "wrapMapToPropsConstant",
+            "wrapMapToPropsFunc"
+          ],
+          "providedExports": [
+            "wrapMapToPropsConstant",
+            "getDependsOnOwnProps",
+            "wrapMapToPropsFunc"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 5
+        },
+        {
+          "id": 13,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+          "index": 26,
+          "index2": 21,
+          "size": 305,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+          "issuerId": 31,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 12,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/wrapMapToProps.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/wrapMapToProps.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/wrapMapToProps.js",
+              "type": "harmony import",
+              "userRequest": "../utils/verifyPlainObject",
+              "loc": "1:0-59"
+            },
+            {
+              "moduleId": 31,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+              "type": "harmony import",
+              "userRequest": "../utils/verifyPlainObject",
+              "loc": "2:0-59"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 5
+        },
+        {
+          "id": 14,
+          "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+          "name": "./src/index.js",
+          "index": 0,
+          "index2": 45,
+          "size": 273,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "drizzleConnect",
+            "DrizzleProvider",
+            "DrizzleContext",
+            "drizzleReactHooks"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 0
+        },
+        {
+          "id": 15,
+          "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/drizzleConnect.js",
+          "name": "./src/drizzleConnect.js",
+          "index": 1,
+          "index2": 30,
+          "size": 573,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+          "issuerId": 14,
+          "issuerName": "./src/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony import",
+              "userRequest": "./drizzleConnect.js",
+              "loc": "1:0-49"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 1
+        },
+        {
+          "id": 16,
+          "identifier": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/extends.js",
+          "name": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/extends.js",
+          "index": 2,
+          "index2": 0,
+          "size": 427,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/drizzleConnect.js",
+          "issuerId": 15,
+          "issuerName": "./src/drizzleConnect.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 15,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/drizzleConnect.js",
+              "module": "./src/drizzleConnect.js",
+              "moduleName": "./src/drizzleConnect.js",
+              "type": "harmony import",
+              "userRequest": "@babel/runtime/helpers/extends",
+              "loc": "1:0-54"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 2
+        },
+        {
+          "id": 17,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+          "index": 5,
+          "index2": 29,
+          "size": 229,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/drizzleConnect.js",
+          "issuerId": 15,
+          "issuerName": "./src/drizzleConnect.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 15,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/drizzleConnect.js",
+              "module": "./src/drizzleConnect.js",
+              "moduleName": "./src/drizzleConnect.js",
+              "type": "harmony import",
+              "userRequest": "react-redux",
+              "loc": "4:0-38"
+            }
+          ],
+          "usedExports": [
+            "connect"
+          ],
+          "providedExports": [
+            "Provider",
+            "createProvider",
+            "connectAdvanced",
+            "connect"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 2
+        },
+        {
+          "id": 18,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "index": 6,
+          "index2": 7,
+          "size": 2165,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+          "issuerId": 17,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 17,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+              "type": "harmony import",
+              "userRequest": "./components/Provider",
+              "loc": "1:0-65"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": [
+            "createProvider",
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 3
+        },
+        {
+          "id": 19,
+          "identifier": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
+          "name": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
+          "index": 12,
+          "index2": 8,
+          "size": 192,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "issuerId": 10,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 10,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "type": "harmony import",
+              "userRequest": "@babel/runtime/helpers/esm/assertThisInitialized",
+              "loc": "2:0-86"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 4
+        },
+        {
+          "id": 20,
+          "identifier": "/home/amal/work/drizzle/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+          "name": "/home/amal/work/drizzle/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+          "index": 15,
+          "index2": 14,
+          "size": 2887,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "issuerId": 10,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 10,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "type": "harmony import",
+              "userRequest": "hoist-non-react-statics",
+              "loc": "5:0-51"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 4
+        },
+        {
+          "id": 21,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-is/cjs/react-is.production.min.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-is/cjs/react-is.production.min.js",
+          "index": 17,
+          "index2": 11,
+          "size": 2339,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+          "issuerId": 11,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 11,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+              "type": "cjs require",
+              "userRequest": "./cjs/react-is.production.min.js",
+              "loc": "4:19-62"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 5
+        },
+        {
+          "id": 22,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-is/cjs/react-is.development.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-is/cjs/react-is.development.js",
+          "index": 18,
+          "index2": 12,
+          "size": 8066,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+          "issuerId": 11,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 11,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+              "type": "cjs require",
+              "userRequest": "./cjs/react-is.development.js",
+              "loc": "6:19-59"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 5
+        },
+        {
+          "id": 23,
+          "identifier": "/home/amal/work/drizzle/node_modules/invariant/browser.js",
+          "name": "/home/amal/work/drizzle/node_modules/invariant/browser.js",
+          "index": 19,
+          "index2": 15,
+          "size": 1397,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "issuerId": 10,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 10,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "type": "harmony import",
+              "userRequest": "invariant",
+              "loc": "6:0-34"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 4
+        },
+        {
+          "id": 24,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/Subscription.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/Subscription.js",
+          "index": 20,
+          "index2": 16,
+          "size": 2416,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "issuerId": 10,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 10,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+              "type": "harmony import",
+              "userRequest": "../utils/Subscription",
+              "loc": "9:0-49"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 4
+        },
+        {
+          "id": 25,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "index": 21,
+          "index2": 28,
+          "size": 4951,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+          "issuerId": 17,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 17,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+              "type": "harmony import",
+              "userRequest": "./connect/connect",
+              "loc": "3:0-40"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "createConnect",
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 3
+        },
+        {
+          "id": 26,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/shallowEqual.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/shallowEqual.js",
+          "index": 22,
+          "index2": 18,
+          "size": 676,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "issuerId": 25,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 25,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "type": "harmony import",
+              "userRequest": "../utils/shallowEqual",
+              "loc": "4:0-49"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 4
+        },
+        {
+          "id": 27,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+          "index": 23,
+          "index2": 23,
+          "size": 915,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "issuerId": 25,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 25,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "type": "harmony import",
+              "userRequest": "./mapDispatchToProps",
+              "loc": "5:0-70"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "whenMapDispatchToPropsIsFunction",
+            "whenMapDispatchToPropsIsMissing",
+            "whenMapDispatchToPropsIsObject",
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 4
+        },
+        {
+          "id": 28,
+          "identifier": "external \"redux\"",
+          "name": "external \"redux\"",
+          "index": 24,
+          "index2": 19,
+          "size": 42,
+          "cacheable": false,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+          "issuerId": 27,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 27,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+              "type": "harmony import",
+              "userRequest": "redux",
+              "loc": "1:0-43"
+            }
+          ],
+          "usedExports": [
+            "bindActionCreators"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 5
+        },
+        {
+          "id": 29,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/isPlainObject.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/isPlainObject.js",
+          "index": 27,
+          "index2": 20,
+          "size": 476,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+          "issuerId": 13,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 13,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+              "type": "harmony import",
+              "userRequest": "./isPlainObject",
+              "loc": "1:0-44"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 6
+        },
+        {
+          "id": 30,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapStateToProps.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapStateToProps.js",
+          "index": 28,
+          "index2": 24,
+          "size": 504,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "issuerId": 25,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 25,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "type": "harmony import",
+              "userRequest": "./mapStateToProps",
+              "loc": "6:0-64"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "whenMapStateToPropsIsFunction",
+            "whenMapStateToPropsIsMissing",
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 4
+        },
+        {
+          "id": 31,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+          "index": 29,
+          "index2": 25,
+          "size": 1403,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "issuerId": 25,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 25,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "type": "harmony import",
+              "userRequest": "./mergeProps",
+              "loc": "7:0-54"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "defaultMergeProps",
+            "wrapMergePropsFunc",
+            "whenMergePropsIsFunction",
+            "whenMergePropsIsOmitted",
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 4
+        },
+        {
+          "id": 32,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+          "index": 30,
+          "index2": 27,
+          "size": 3938,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "issuerId": 25,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 25,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+              "type": "harmony import",
+              "userRequest": "./selectorFactory",
+              "loc": "8:0-55"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "impureFinalPropsSelectorFactory",
+            "pureFinalPropsSelectorFactory",
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 4
+        },
+        {
+          "id": 33,
+          "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/verifySubselectors.js",
+          "name": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/verifySubselectors.js",
+          "index": 31,
+          "index2": 26,
+          "size": 764,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+          "issuerId": 32,
+          "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 32,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+              "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+              "type": "harmony import",
+              "userRequest": "./verifySubselectors",
+              "loc": "2:0-54"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 5
+        },
+        {
+          "id": 34,
+          "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleProvider.js",
+          "name": "./src/DrizzleProvider.js",
+          "index": 32,
+          "index2": 33,
+          "size": 1047,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+          "issuerId": 14,
+          "issuerName": "./src/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony import",
+              "userRequest": "./DrizzleProvider.js",
+              "loc": "2:0-51"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 1
+        },
+        {
+          "id": 35,
+          "identifier": "external \"@drizzle/store\"",
+          "name": "external \"@drizzle/store\"",
+          "index": 34,
+          "index2": 32,
+          "size": 42,
+          "cacheable": false,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleProvider.js",
+          "issuerId": 34,
+          "issuerName": "./src/DrizzleProvider.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 34,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleProvider.js",
+              "module": "./src/DrizzleProvider.js",
+              "moduleName": "./src/DrizzleProvider.js",
+              "type": "harmony import",
+              "userRequest": "@drizzle/store",
+              "loc": "4:0-56"
+            }
+          ],
+          "usedExports": [
+            "Drizzle",
+            "generateStore"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 2
+        },
+        {
+          "id": 36,
+          "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleContext.js",
+          "name": "./src/DrizzleContext.js",
+          "index": 35,
+          "index2": 34,
+          "size": 1143,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+          "issuerId": 14,
+          "issuerName": "./src/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 14,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony import",
+              "userRequest": "./DrizzleContext",
+              "loc": "3:0-46"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 1
+        },
+        {
+          "id": 37,
+          "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/create-use-cache-call.js",
+          "name": "./src/hooks/create-use-cache-call.js",
+          "index": 37,
+          "index2": 35,
+          "size": 2161,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+          "issuerId": 4,
+          "issuerName": "./src/hooks/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+              "module": "./src/hooks/index.js",
+              "moduleName": "./src/hooks/index.js",
+              "type": "harmony import",
+              "userRequest": "./create-use-cache-call",
+              "loc": "3:0-57"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 2
+        },
+        {
+          "id": 38,
+          "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/create-use-cache-events.js",
+          "name": "./src/hooks/create-use-cache-events.js",
+          "index": 38,
+          "index2": 36,
+          "size": 1974,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+          "issuerId": 4,
+          "issuerName": "./src/hooks/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+              "module": "./src/hooks/index.js",
+              "moduleName": "./src/hooks/index.js",
+              "type": "harmony import",
+              "userRequest": "./create-use-cache-events",
+              "loc": "4:0-61"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 2
+        },
+        {
+          "id": 39,
+          "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/create-use-cache-send.js",
+          "name": "./src/hooks/create-use-cache-send.js",
+          "index": 39,
+          "index2": 37,
+          "size": 963,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+          "issuerId": 4,
+          "issuerName": "./src/hooks/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+              "module": "./src/hooks/index.js",
+              "moduleName": "./src/hooks/index.js",
+              "type": "harmony import",
+              "userRequest": "./create-use-cache-send",
+              "loc": "5:0-57"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 2
+        },
+        {
+          "id": 40,
+          "identifier": "/home/amal/work/drizzle/node_modules/debounce/index.js",
+          "name": "/home/amal/work/drizzle/node_modules/debounce/index.js",
+          "index": 40,
+          "index2": 38,
+          "size": 1843,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+          "issuerId": 4,
+          "issuerName": "./src/hooks/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+              "module": "./src/hooks/index.js",
+              "moduleName": "./src/hooks/index.js",
+              "type": "harmony import",
+              "userRequest": "debounce",
+              "loc": "6:0-32"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 2
+        },
+        {
+          "id": 41,
+          "identifier": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+          "name": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+          "index": 41,
+          "index2": 41,
+          "size": 3051,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+          "issuerId": 4,
+          "issuerName": "./src/hooks/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+              "module": "./src/hooks/index.js",
+              "moduleName": "./src/hooks/index.js",
+              "type": "harmony import",
+              "userRequest": "deep-equal",
+              "loc": "7:0-35"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 2
+        },
+        {
+          "id": 42,
+          "identifier": "/home/amal/work/drizzle/node_modules/deep-equal/lib/keys.js",
+          "name": "/home/amal/work/drizzle/node_modules/deep-equal/lib/keys.js",
+          "index": 42,
+          "index2": 39,
+          "size": 202,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+          "issuerId": 41,
+          "issuerName": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 41,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+              "module": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+              "type": "cjs require",
+              "userRequest": "./lib/keys.js",
+              "loc": "2:17-41"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 3
+        },
+        {
+          "id": 43,
+          "identifier": "/home/amal/work/drizzle/node_modules/deep-equal/lib/is_arguments.js",
+          "name": "/home/amal/work/drizzle/node_modules/deep-equal/lib/is_arguments.js",
+          "index": 43,
+          "index2": 40,
+          "size": 641,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+          "issuerId": 41,
+          "issuerName": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 41,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+              "module": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+              "moduleName": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+              "type": "cjs require",
+              "userRequest": "./lib/is_arguments.js",
+              "loc": "3:18-50"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+          ],
+          "depth": 3
+        },
+        {
+          "id": 44,
+          "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/components/index.js",
+          "name": "./src/hooks/components/index.js",
+          "index": 44,
+          "index2": 43,
+          "size": 55,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+          "issuerId": 4,
+          "issuerName": "./src/hooks/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 4,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+              "module": "./src/hooks/index.js",
+              "moduleName": "./src/hooks/index.js",
+              "type": "harmony import",
+              "userRequest": "./components",
+              "loc": "93:0-29"
+            }
+          ],
+          "usedExports": [
+            "Initializer"
+          ],
+          "providedExports": [
+            "Initializer"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 2
+        },
+        {
+          "id": 45,
+          "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/components/initializer.js",
+          "name": "./src/hooks/components/initializer.js",
+          "index": 45,
+          "index2": 42,
+          "size": 960,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [
+          ],
+          "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/components/index.js",
+          "issuerId": 44,
+          "issuerName": "./src/hooks/components/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 44,
+              "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/components/index.js",
+              "module": "./src/hooks/components/index.js",
+              "moduleName": "./src/hooks/components/index.js",
+              "type": "harmony import",
+              "userRequest": "./initializer",
+              "loc": "1:0-55"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+          ],
+          "depth": 3
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 14,
+          "module": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+          "moduleName": "./src/index.js",
+          "loc": "",
+          "name": "main",
+          "reasons": [
+          ]
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "external \"react\"",
+      "name": "external \"react\"",
+      "index": 4,
+      "index2": 2,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/drizzleConnect.js",
+      "issuerId": 15,
+      "issuerName": "./src/drizzleConnect.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+          "module": "./src/hooks/index.js",
+          "moduleName": "./src/hooks/index.js",
+          "type": "harmony import",
+          "userRequest": "react",
+          "loc": "1:0-95"
+        },
+        {
+          "moduleId": 10,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "type": "harmony import",
+          "userRequest": "react",
+          "loc": "7:0-49"
+        },
+        {
+          "moduleId": 15,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/drizzleConnect.js",
+          "module": "./src/drizzleConnect.js",
+          "moduleName": "./src/drizzleConnect.js",
+          "type": "harmony import",
+          "userRequest": "react",
+          "loc": "3:0-26"
+        },
+        {
+          "moduleId": 18,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "type": "harmony import",
+          "userRequest": "react",
+          "loc": "2:0-44"
+        },
+        {
+          "moduleId": 34,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleProvider.js",
+          "module": "./src/DrizzleProvider.js",
+          "moduleName": "./src/DrizzleProvider.js",
+          "type": "harmony import",
+          "userRequest": "react",
+          "loc": "2:0-44"
+        },
+        {
+          "moduleId": 36,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleContext.js",
+          "module": "./src/DrizzleContext.js",
+          "moduleName": "./src/DrizzleContext.js",
+          "type": "harmony import",
+          "userRequest": "react",
+          "loc": "2:0-26"
+        },
+        {
+          "moduleId": 38,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/create-use-cache-events.js",
+          "module": "./src/hooks/create-use-cache-events.js",
+          "moduleName": "./src/hooks/create-use-cache-events.js",
+          "type": "harmony import",
+          "userRequest": "react",
+          "loc": "7:0-53"
+        },
+        {
+          "moduleId": 39,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/create-use-cache-send.js",
+          "module": "./src/hooks/create-use-cache-send.js",
+          "moduleName": "./src/hooks/create-use-cache-send.js",
+          "type": "harmony import",
+          "userRequest": "react",
+          "loc": "2:0-33"
+        }
+      ],
+      "usedExports": [
+        "Children",
+        "Component",
+        "createContext",
+        "createElement",
+        "default",
+        "useContext",
+        "useEffect",
+        "useMemo",
+        "useRef",
+        "useState"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 2
+    },
+    {
+      "id": 1,
+      "identifier": "/home/amal/work/drizzle/node_modules/process/browser.js",
+      "name": "/home/amal/work/drizzle/node_modules/process/browser.js",
+      "index": 7,
+      "index2": 3,
+      "size": 5418,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+      "issuerId": 18,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 10,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "type": "cjs require",
+          "userRequest": "process",
+          "loc": "1:0-40"
+        },
+        {
+          "moduleId": 11,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+          "type": "cjs require",
+          "userRequest": "process",
+          "loc": "1:0-34"
+        },
+        {
+          "moduleId": 12,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/wrapMapToProps.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/wrapMapToProps.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/wrapMapToProps.js",
+          "type": "cjs require",
+          "userRequest": "process",
+          "loc": "1:0-40"
+        },
+        {
+          "moduleId": 18,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "type": "cjs require",
+          "userRequest": "process",
+          "loc": "1:0-40"
+        },
+        {
+          "moduleId": 22,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-is/cjs/react-is.development.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-is/cjs/react-is.development.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-is/cjs/react-is.development.js",
+          "type": "cjs require",
+          "userRequest": "process",
+          "loc": "1:0-37"
+        },
+        {
+          "moduleId": 23,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/invariant/browser.js",
+          "module": "/home/amal/work/drizzle/node_modules/invariant/browser.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/invariant/browser.js",
+          "type": "cjs require",
+          "userRequest": "process",
+          "loc": "1:0-34"
+        },
+        {
+          "moduleId": 31,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+          "type": "cjs require",
+          "userRequest": "process",
+          "loc": "1:0-40"
+        },
+        {
+          "moduleId": 32,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+          "type": "cjs require",
+          "userRequest": "process",
+          "loc": "1:0-40"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 4
+    },
+    {
+      "id": 2,
+      "identifier": "external \"prop-types\"",
+      "name": "external \"prop-types\"",
+      "index": 3,
+      "index2": 1,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/drizzleConnect.js",
+      "issuerId": 15,
+      "issuerName": "./src/drizzleConnect.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+          "module": "./src/hooks/index.js",
+          "moduleName": "./src/hooks/index.js",
+          "type": "harmony import",
+          "userRequest": "prop-types",
+          "loc": "2:0-35"
+        },
+        {
+          "moduleId": 9,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/PropTypes.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/PropTypes.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/PropTypes.js",
+          "type": "harmony import",
+          "userRequest": "prop-types",
+          "loc": "1:0-35"
+        },
+        {
+          "moduleId": 15,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/drizzleConnect.js",
+          "module": "./src/drizzleConnect.js",
+          "moduleName": "./src/drizzleConnect.js",
+          "type": "harmony import",
+          "userRequest": "prop-types",
+          "loc": "2:0-35"
+        },
+        {
+          "moduleId": 18,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "type": "harmony import",
+          "userRequest": "prop-types",
+          "loc": "3:0-35"
+        },
+        {
+          "moduleId": 34,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleProvider.js",
+          "module": "./src/DrizzleProvider.js",
+          "moduleName": "./src/DrizzleProvider.js",
+          "type": "harmony import",
+          "userRequest": "prop-types",
+          "loc": "3:0-35"
+        },
+        {
+          "moduleId": 45,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/components/initializer.js",
+          "module": "./src/hooks/components/initializer.js",
+          "moduleName": "./src/hooks/components/initializer.js",
+          "type": "harmony import",
+          "userRequest": "prop-types",
+          "loc": "1:0-35"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 2
+    },
+    {
+      "id": 3,
+      "identifier": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "name": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/defineProperty.js",
+      "index": 33,
+      "index2": 31,
+      "size": 289,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleProvider.js",
+      "issuerId": 34,
+      "issuerName": "./src/DrizzleProvider.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 34,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleProvider.js",
+          "module": "./src/DrizzleProvider.js",
+          "moduleName": "./src/DrizzleProvider.js",
+          "type": "harmony import",
+          "userRequest": "@babel/runtime/helpers/defineProperty",
+          "loc": "1:0-68"
+        },
+        {
+          "moduleId": 36,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleContext.js",
+          "module": "./src/DrizzleContext.js",
+          "moduleName": "./src/DrizzleContext.js",
+          "type": "harmony import",
+          "userRequest": "@babel/runtime/helpers/defineProperty",
+          "loc": "1:0-68"
+        },
+        {
+          "moduleId": 37,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/create-use-cache-call.js",
+          "module": "./src/hooks/create-use-cache-call.js",
+          "moduleName": "./src/hooks/create-use-cache-call.js",
+          "type": "harmony import",
+          "userRequest": "@babel/runtime/helpers/defineProperty",
+          "loc": "1:0-68"
+        },
+        {
+          "moduleId": 38,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/create-use-cache-events.js",
+          "module": "./src/hooks/create-use-cache-events.js",
+          "moduleName": "./src/hooks/create-use-cache-events.js",
+          "type": "harmony import",
+          "userRequest": "@babel/runtime/helpers/defineProperty",
+          "loc": "1:0-68"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 2
+    },
+    {
+      "id": 4,
+      "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+      "name": "./src/hooks/index.js",
+      "index": 36,
+      "index2": 44,
+      "size": 3487,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+      "issuerId": 14,
+      "issuerName": "./src/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "harmony import",
+          "userRequest": "./hooks",
+          "loc": "4:0-45"
+        },
+        {
+          "moduleId": 37,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/create-use-cache-call.js",
+          "module": "./src/hooks/create-use-cache-call.js",
+          "moduleName": "./src/hooks/create-use-cache-call.js",
+          "type": "harmony import",
+          "userRequest": ".",
+          "loc": "7:0-36"
+        },
+        {
+          "moduleId": 39,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/create-use-cache-send.js",
+          "module": "./src/hooks/create-use-cache-send.js",
+          "moduleName": "./src/hooks/create-use-cache-send.js",
+          "type": "harmony import",
+          "userRequest": ".",
+          "loc": "1:0-36"
+        },
+        {
+          "moduleId": 45,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/components/initializer.js",
+          "module": "./src/hooks/components/initializer.js",
+          "moduleName": "./src/hooks/components/initializer.js",
+          "type": "harmony import",
+          "userRequest": "..",
+          "loc": "2:0-37"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "useDrizzle",
+        "useDrizzleState",
+        "DrizzleProvider",
+        "Initializer"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 1
+    },
+    {
+      "id": 5,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/warning.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/warning.js",
+      "index": 10,
+      "index2": 6,
+      "size": 640,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+      "issuerId": 18,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 13,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+          "type": "harmony import",
+          "userRequest": "./warning",
+          "loc": "2:0-32"
+        },
+        {
+          "moduleId": 18,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "type": "harmony import",
+          "userRequest": "../utils/warning",
+          "loc": "5:0-39"
+        },
+        {
+          "moduleId": 33,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/verifySubselectors.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/verifySubselectors.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/verifySubselectors.js",
+          "type": "harmony import",
+          "userRequest": "../utils/warning",
+          "loc": "1:0-39"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 4
+    },
+    {
+      "id": 6,
+      "identifier": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/esm/extends.js",
+      "name": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/esm/extends.js",
+      "index": 13,
+      "index2": 9,
+      "size": 397,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+      "issuerId": 25,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 10,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "type": "harmony import",
+          "userRequest": "@babel/runtime/helpers/esm/extends",
+          "loc": "3:0-58"
+        },
+        {
+          "moduleId": 25,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "type": "harmony import",
+          "userRequest": "@babel/runtime/helpers/esm/extends",
+          "loc": "1:0-58"
+        },
+        {
+          "moduleId": 31,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+          "type": "harmony import",
+          "userRequest": "@babel/runtime/helpers/esm/extends",
+          "loc": "1:0-58"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 4
+    },
+    {
+      "id": 7,
+      "identifier": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+      "name": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+      "index": 14,
+      "index2": 10,
+      "size": 350,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+      "issuerId": 25,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 10,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "type": "harmony import",
+          "userRequest": "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose",
+          "loc": "4:0-100"
+        },
+        {
+          "moduleId": 25,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "type": "harmony import",
+          "userRequest": "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose",
+          "loc": "2:0-100"
+        },
+        {
+          "moduleId": 32,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+          "type": "harmony import",
+          "userRequest": "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose",
+          "loc": "1:0-100"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 4
+    },
+    {
+      "id": 8,
+      "identifier": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+      "name": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+      "index": 8,
+      "index2": 4,
+      "size": 204,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+      "issuerId": 18,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 10,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "type": "harmony import",
+          "userRequest": "@babel/runtime/helpers/esm/inheritsLoose",
+          "loc": "1:0-70"
+        },
+        {
+          "moduleId": 18,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "type": "harmony import",
+          "userRequest": "@babel/runtime/helpers/esm/inheritsLoose",
+          "loc": "1:0-70"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 4
+    },
+    {
+      "id": 9,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/PropTypes.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/PropTypes.js",
+      "index": 9,
+      "index2": 5,
+      "size": 428,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+      "issuerId": 18,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 10,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "type": "harmony import",
+          "userRequest": "../utils/PropTypes",
+          "loc": "10:0-67"
+        },
+        {
+          "moduleId": 18,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+          "type": "harmony import",
+          "userRequest": "../utils/PropTypes",
+          "loc": "4:0-67"
+        }
+      ],
+      "usedExports": [
+        "storeShape",
+        "subscriptionShape"
+      ],
+      "providedExports": [
+        "subscriptionShape",
+        "storeShape"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 4
+    },
+    {
+      "id": 10,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+      "index": 11,
+      "index2": 17,
+      "size": 13286,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+      "issuerId": 17,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 17,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+          "type": "harmony import",
+          "userRequest": "./components/connectAdvanced",
+          "loc": "2:0-59"
+        },
+        {
+          "moduleId": 25,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "type": "harmony import",
+          "userRequest": "../components/connectAdvanced",
+          "loc": "3:0-60"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 3
+    },
+    {
+      "id": 11,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+      "index": 16,
+      "index2": 13,
+      "size": 196,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+      "issuerId": 10,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 10,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "type": "harmony import",
+          "userRequest": "react-is",
+          "loc": "8:0-46"
+        },
+        {
+          "moduleId": 20,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+          "module": "/home/amal/work/drizzle/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+          "type": "cjs require",
+          "userRequest": "react-is",
+          "loc": "7:14-33"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 4
+    },
+    {
+      "id": 12,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/wrapMapToProps.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/wrapMapToProps.js",
+      "index": 25,
+      "index2": 22,
+      "size": 2793,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapStateToProps.js",
+      "issuerId": 30,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapStateToProps.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 27,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+          "type": "harmony import",
+          "userRequest": "./wrapMapToProps",
+          "loc": "2:0-78"
+        },
+        {
+          "moduleId": 30,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapStateToProps.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapStateToProps.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapStateToProps.js",
+          "type": "harmony import",
+          "userRequest": "./wrapMapToProps",
+          "loc": "1:0-78"
+        }
+      ],
+      "usedExports": [
+        "wrapMapToPropsConstant",
+        "wrapMapToPropsFunc"
+      ],
+      "providedExports": [
+        "wrapMapToPropsConstant",
+        "getDependsOnOwnProps",
+        "wrapMapToPropsFunc"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 5
+    },
+    {
+      "id": 13,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+      "index": 26,
+      "index2": 21,
+      "size": 305,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+      "issuerId": 31,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 12,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/wrapMapToProps.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/wrapMapToProps.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/wrapMapToProps.js",
+          "type": "harmony import",
+          "userRequest": "../utils/verifyPlainObject",
+          "loc": "1:0-59"
+        },
+        {
+          "moduleId": 31,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+          "type": "harmony import",
+          "userRequest": "../utils/verifyPlainObject",
+          "loc": "2:0-59"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 5
+    },
+    {
+      "id": 14,
+      "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+      "name": "./src/index.js",
+      "index": 0,
+      "index2": 45,
+      "size": 273,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "drizzleConnect",
+        "DrizzleProvider",
+        "DrizzleContext",
+        "drizzleReactHooks"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 0
+    },
+    {
+      "id": 15,
+      "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/drizzleConnect.js",
+      "name": "./src/drizzleConnect.js",
+      "index": 1,
+      "index2": 30,
+      "size": 573,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+      "issuerId": 14,
+      "issuerName": "./src/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "harmony import",
+          "userRequest": "./drizzleConnect.js",
+          "loc": "1:0-49"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 1
+    },
+    {
+      "id": 16,
+      "identifier": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/extends.js",
+      "name": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/extends.js",
+      "index": 2,
+      "index2": 0,
+      "size": 427,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/drizzleConnect.js",
+      "issuerId": 15,
+      "issuerName": "./src/drizzleConnect.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 15,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/drizzleConnect.js",
+          "module": "./src/drizzleConnect.js",
+          "moduleName": "./src/drizzleConnect.js",
+          "type": "harmony import",
+          "userRequest": "@babel/runtime/helpers/extends",
+          "loc": "1:0-54"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 2
+    },
+    {
+      "id": 17,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+      "index": 5,
+      "index2": 29,
+      "size": 229,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/drizzleConnect.js",
+      "issuerId": 15,
+      "issuerName": "./src/drizzleConnect.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 15,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/drizzleConnect.js",
+          "module": "./src/drizzleConnect.js",
+          "moduleName": "./src/drizzleConnect.js",
+          "type": "harmony import",
+          "userRequest": "react-redux",
+          "loc": "4:0-38"
+        }
+      ],
+      "usedExports": [
+        "connect"
+      ],
+      "providedExports": [
+        "Provider",
+        "createProvider",
+        "connectAdvanced",
+        "connect"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 2
+    },
+    {
+      "id": 18,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-redux/es/components/Provider.js",
+      "index": 6,
+      "index2": 7,
+      "size": 2165,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+      "issuerId": 17,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 17,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+          "type": "harmony import",
+          "userRequest": "./components/Provider",
+          "loc": "1:0-65"
+        }
+      ],
+      "usedExports": false,
+      "providedExports": [
+        "createProvider",
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 3
+    },
+    {
+      "id": 19,
+      "identifier": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
+      "name": "/home/amal/work/drizzle/node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
+      "index": 12,
+      "index2": 8,
+      "size": 192,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+      "issuerId": 10,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 10,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "type": "harmony import",
+          "userRequest": "@babel/runtime/helpers/esm/assertThisInitialized",
+          "loc": "2:0-86"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 4
+    },
+    {
+      "id": 20,
+      "identifier": "/home/amal/work/drizzle/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "name": "/home/amal/work/drizzle/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "index": 15,
+      "index2": 14,
+      "size": 2887,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+      "issuerId": 10,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 10,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "type": "harmony import",
+          "userRequest": "hoist-non-react-statics",
+          "loc": "5:0-51"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 4
+    },
+    {
+      "id": 21,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-is/cjs/react-is.production.min.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-is/cjs/react-is.production.min.js",
+      "index": 17,
+      "index2": 11,
+      "size": 2339,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+      "issuerId": 11,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 11,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+          "type": "cjs require",
+          "userRequest": "./cjs/react-is.production.min.js",
+          "loc": "4:19-62"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 5
+    },
+    {
+      "id": 22,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-is/cjs/react-is.development.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-is/cjs/react-is.development.js",
+      "index": 18,
+      "index2": 12,
+      "size": 8066,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+      "issuerId": 11,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 11,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-is/index.js",
+          "type": "cjs require",
+          "userRequest": "./cjs/react-is.development.js",
+          "loc": "6:19-59"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 5
+    },
+    {
+      "id": 23,
+      "identifier": "/home/amal/work/drizzle/node_modules/invariant/browser.js",
+      "name": "/home/amal/work/drizzle/node_modules/invariant/browser.js",
+      "index": 19,
+      "index2": 15,
+      "size": 1397,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+      "issuerId": 10,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 10,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "type": "harmony import",
+          "userRequest": "invariant",
+          "loc": "6:0-34"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 4
+    },
+    {
+      "id": 24,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/Subscription.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/Subscription.js",
+      "index": 20,
+      "index2": 16,
+      "size": 2416,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+      "issuerId": 10,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 10,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/components/connectAdvanced.js",
+          "type": "harmony import",
+          "userRequest": "../utils/Subscription",
+          "loc": "9:0-49"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 4
+    },
+    {
+      "id": 25,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+      "index": 21,
+      "index2": 28,
+      "size": 4951,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+      "issuerId": 17,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 17,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/index.js",
+          "type": "harmony import",
+          "userRequest": "./connect/connect",
+          "loc": "3:0-40"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "createConnect",
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 3
+    },
+    {
+      "id": 26,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/shallowEqual.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/shallowEqual.js",
+      "index": 22,
+      "index2": 18,
+      "size": 676,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+      "issuerId": 25,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 25,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "type": "harmony import",
+          "userRequest": "../utils/shallowEqual",
+          "loc": "4:0-49"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 4
+    },
+    {
+      "id": 27,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+      "index": 23,
+      "index2": 23,
+      "size": 915,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+      "issuerId": 25,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 25,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "type": "harmony import",
+          "userRequest": "./mapDispatchToProps",
+          "loc": "5:0-70"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "whenMapDispatchToPropsIsFunction",
+        "whenMapDispatchToPropsIsMissing",
+        "whenMapDispatchToPropsIsObject",
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 4
+    },
+    {
+      "id": 28,
+      "identifier": "external \"redux\"",
+      "name": "external \"redux\"",
+      "index": 24,
+      "index2": 19,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+      "issuerId": 27,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 27,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapDispatchToProps.js",
+          "type": "harmony import",
+          "userRequest": "redux",
+          "loc": "1:0-43"
+        }
+      ],
+      "usedExports": [
+        "bindActionCreators"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 5
+    },
+    {
+      "id": 29,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/isPlainObject.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/isPlainObject.js",
+      "index": 27,
+      "index2": 20,
+      "size": 476,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+      "issuerId": 13,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 13,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/utils/verifyPlainObject.js",
+          "type": "harmony import",
+          "userRequest": "./isPlainObject",
+          "loc": "1:0-44"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 6
+    },
+    {
+      "id": 30,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapStateToProps.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mapStateToProps.js",
+      "index": 28,
+      "index2": 24,
+      "size": 504,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+      "issuerId": 25,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 25,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "type": "harmony import",
+          "userRequest": "./mapStateToProps",
+          "loc": "6:0-64"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "whenMapStateToPropsIsFunction",
+        "whenMapStateToPropsIsMissing",
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 4
+    },
+    {
+      "id": 31,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/mergeProps.js",
+      "index": 29,
+      "index2": 25,
+      "size": 1403,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+      "issuerId": 25,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 25,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "type": "harmony import",
+          "userRequest": "./mergeProps",
+          "loc": "7:0-54"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "defaultMergeProps",
+        "wrapMergePropsFunc",
+        "whenMergePropsIsFunction",
+        "whenMergePropsIsOmitted",
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 4
+    },
+    {
+      "id": 32,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+      "index": 30,
+      "index2": 27,
+      "size": 3938,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+      "issuerId": 25,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 25,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/connect.js",
+          "type": "harmony import",
+          "userRequest": "./selectorFactory",
+          "loc": "8:0-55"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "impureFinalPropsSelectorFactory",
+        "pureFinalPropsSelectorFactory",
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 4
+    },
+    {
+      "id": 33,
+      "identifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/verifySubselectors.js",
+      "name": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/verifySubselectors.js",
+      "index": 31,
+      "index2": 26,
+      "size": 764,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+      "issuerId": 32,
+      "issuerName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 32,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+          "module": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/react-redux/es/connect/selectorFactory.js",
+          "type": "harmony import",
+          "userRequest": "./verifySubselectors",
+          "loc": "2:0-54"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 5
+    },
+    {
+      "id": 34,
+      "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleProvider.js",
+      "name": "./src/DrizzleProvider.js",
+      "index": 32,
+      "index2": 33,
+      "size": 1047,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+      "issuerId": 14,
+      "issuerName": "./src/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "harmony import",
+          "userRequest": "./DrizzleProvider.js",
+          "loc": "2:0-51"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 1
+    },
+    {
+      "id": 35,
+      "identifier": "external \"@drizzle/store\"",
+      "name": "external \"@drizzle/store\"",
+      "index": 34,
+      "index2": 32,
+      "size": 42,
+      "cacheable": false,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleProvider.js",
+      "issuerId": 34,
+      "issuerName": "./src/DrizzleProvider.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 34,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleProvider.js",
+          "module": "./src/DrizzleProvider.js",
+          "moduleName": "./src/DrizzleProvider.js",
+          "type": "harmony import",
+          "userRequest": "@drizzle/store",
+          "loc": "4:0-56"
+        }
+      ],
+      "usedExports": [
+        "Drizzle",
+        "generateStore"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 2
+    },
+    {
+      "id": 36,
+      "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/DrizzleContext.js",
+      "name": "./src/DrizzleContext.js",
+      "index": 35,
+      "index2": 34,
+      "size": 1143,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+      "issuerId": 14,
+      "issuerName": "./src/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 14,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "harmony import",
+          "userRequest": "./DrizzleContext",
+          "loc": "3:0-46"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 1
+    },
+    {
+      "id": 37,
+      "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/create-use-cache-call.js",
+      "name": "./src/hooks/create-use-cache-call.js",
+      "index": 37,
+      "index2": 35,
+      "size": 2161,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+      "issuerId": 4,
+      "issuerName": "./src/hooks/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+          "module": "./src/hooks/index.js",
+          "moduleName": "./src/hooks/index.js",
+          "type": "harmony import",
+          "userRequest": "./create-use-cache-call",
+          "loc": "3:0-57"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 2
+    },
+    {
+      "id": 38,
+      "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/create-use-cache-events.js",
+      "name": "./src/hooks/create-use-cache-events.js",
+      "index": 38,
+      "index2": 36,
+      "size": 1974,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+      "issuerId": 4,
+      "issuerName": "./src/hooks/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+          "module": "./src/hooks/index.js",
+          "moduleName": "./src/hooks/index.js",
+          "type": "harmony import",
+          "userRequest": "./create-use-cache-events",
+          "loc": "4:0-61"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 2
+    },
+    {
+      "id": 39,
+      "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/create-use-cache-send.js",
+      "name": "./src/hooks/create-use-cache-send.js",
+      "index": 39,
+      "index2": 37,
+      "size": 963,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+      "issuerId": 4,
+      "issuerName": "./src/hooks/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+          "module": "./src/hooks/index.js",
+          "moduleName": "./src/hooks/index.js",
+          "type": "harmony import",
+          "userRequest": "./create-use-cache-send",
+          "loc": "5:0-57"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 2
+    },
+    {
+      "id": 40,
+      "identifier": "/home/amal/work/drizzle/node_modules/debounce/index.js",
+      "name": "/home/amal/work/drizzle/node_modules/debounce/index.js",
+      "index": 40,
+      "index2": 38,
+      "size": 1843,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+      "issuerId": 4,
+      "issuerName": "./src/hooks/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+          "module": "./src/hooks/index.js",
+          "moduleName": "./src/hooks/index.js",
+          "type": "harmony import",
+          "userRequest": "debounce",
+          "loc": "6:0-32"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 2
+    },
+    {
+      "id": 41,
+      "identifier": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+      "name": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+      "index": 41,
+      "index2": 41,
+      "size": 3051,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+      "issuerId": 4,
+      "issuerName": "./src/hooks/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+          "module": "./src/hooks/index.js",
+          "moduleName": "./src/hooks/index.js",
+          "type": "harmony import",
+          "userRequest": "deep-equal",
+          "loc": "7:0-35"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 2
+    },
+    {
+      "id": 42,
+      "identifier": "/home/amal/work/drizzle/node_modules/deep-equal/lib/keys.js",
+      "name": "/home/amal/work/drizzle/node_modules/deep-equal/lib/keys.js",
+      "index": 42,
+      "index2": 39,
+      "size": 202,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+      "issuerId": 41,
+      "issuerName": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 41,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+          "module": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+          "type": "cjs require",
+          "userRequest": "./lib/keys.js",
+          "loc": "2:17-41"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 3
+    },
+    {
+      "id": 43,
+      "identifier": "/home/amal/work/drizzle/node_modules/deep-equal/lib/is_arguments.js",
+      "name": "/home/amal/work/drizzle/node_modules/deep-equal/lib/is_arguments.js",
+      "index": 43,
+      "index2": 40,
+      "size": 641,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+      "issuerId": 41,
+      "issuerName": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 41,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+          "module": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+          "moduleName": "/home/amal/work/drizzle/node_modules/deep-equal/index.js",
+          "type": "cjs require",
+          "userRequest": "./lib/is_arguments.js",
+          "loc": "3:18-50"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+      ],
+      "depth": 3
+    },
+    {
+      "id": 44,
+      "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/components/index.js",
+      "name": "./src/hooks/components/index.js",
+      "index": 44,
+      "index2": 43,
+      "size": 55,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+      "issuerId": 4,
+      "issuerName": "./src/hooks/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 4,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/index.js",
+          "module": "./src/hooks/index.js",
+          "moduleName": "./src/hooks/index.js",
+          "type": "harmony import",
+          "userRequest": "./components",
+          "loc": "93:0-29"
+        }
+      ],
+      "usedExports": [
+        "Initializer"
+      ],
+      "providedExports": [
+        "Initializer"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 2
+    },
+    {
+      "id": 45,
+      "identifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/components/initializer.js",
+      "name": "./src/hooks/components/initializer.js",
+      "index": 45,
+      "index2": 42,
+      "size": 960,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [
+      ],
+      "issuer": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/components/index.js",
+      "issuerId": 44,
+      "issuerName": "./src/hooks/components/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 44,
+          "moduleIdentifier": "/home/amal/work/drizzle/node_modules/babel-loader/lib/index.js!/home/amal/work/drizzle/packages/react-plugin/src/hooks/components/index.js",
+          "module": "./src/hooks/components/index.js",
+          "moduleName": "./src/hooks/components/index.js",
+          "type": "harmony import",
+          "userRequest": "./initializer",
+          "loc": "1:0-55"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [
+      ],
+      "depth": 3
+    }
+  ],
+  "filteredModules": 0,
+  "children": [
+  ]
+}
